@@ -85,7 +85,10 @@ gana/
 Open `Index.html` in any modern browser.
 
 ### Option 2: Node.js Server
-```bash
+
+---
+
 ## 👀 Preview
 
 ![Gana Music Player Home](home.png)
+
