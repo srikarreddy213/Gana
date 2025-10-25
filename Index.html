@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gana - Music Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="logo"></li>
+            <li id="navit">Gana</li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Playlist</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songs">
+            <div class="songitem">
+                <img src="gandaganacover.jpg" alt="1">
+                <span class="songname">Georgian Gandagana</span>
+                <span class="timestamp">2:30 <img src="playblack.svg" alt="play" id="playb1"></span>
+            </div>
+
+            <div class="songitem">
+                <img src="devileyescover.jpg" alt="2">
+                <span class="songname">Devileyes</span>
+                <span class="timestamp">3:10 <img src="playblack.svg" alt="play" id="playb2"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bottom-controls">
+            <div class="progress-row">
+                <span id="currentTimeLabel">0:00</span>
+                <div class="progress-bar-wrapper">
+                    <div class="progress-bar-fill" id="progressBarFill"></div>
+                    <input type="range" name="range" id="myprogressbar" min="0" max="0" value="0" step="0.1">
+                </div>
+                <span id="durationLabel">0:00</span>
+            </div>
+            <div class="icons">
+                <img src="previous.svg" alt="previous" id="previous">
+                <img src="play.svg" alt="play" id="masterPlay">
+                <img src="next.svg" alt="next" id="next">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
