@@ -86,5 +86,6 @@ Open `Index.html` in any modern browser.
 
 ### Option 2: Node.js Server
 ```bash
-node server.js
-<img width="1915" height="1016" alt="image" src="https://github.com/user-attachments/assets/9ec0ea92-160b-4050-950b-52970814946a" />
+## 👀 Preview
+
+![Gana Music Player Home](home.png)
